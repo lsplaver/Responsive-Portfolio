@@ -202,13 +202,17 @@ td {
     border-spacing: 0px;
     border-width: 1px;
     border-color: #dddddd;
-    /* border-collapse: separate; */
+    border-collapse: separate;
+    position: relative;
 }
 
 .rowLogos {
     padding: 10px;
     padding-left: 15px;
     padding-top: 0px;
+    position: relative;
+    width: 33%;
+    float: center;
 }
 
 .footerDivider {
